@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Maruf Hossen - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <link rel="icon" href="./favicon.png" type="image/x-icon" sizes="40x40">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-picture-container">
+                <div class="spinning-circle">
+                    <div class="inner-circle">
+                        <img src="./profile.png" alt="Profile Picture"> alt="Profile Picture of Md. Maruf Hossen">
+                    </div>
+                    <div class="outer-circle light-blue-border"></div>
+                    <div class="outer-circle purple-border"></div>
+                </div>
+            </div>
+            <h1 class="animate-fade-in-up">Hello, I'm <span class="reveal-text">Md. Maruf Hossen</span></h1>
+            <p class="subtitle animate-fade-in-up animation-delay-1">Student, Photographer</p>
+        </div>
+
+        <div class="section about animate-fade-in-left">
+            <div class="title-container">
+          <h2 class="skills-title">About Me</h2>
+          </div>
+            <p>I am Md. Maruf Hossen, currently pursuing a Bachelor's degree in Computer Science and Engineering at Daffodil International University. With a strong interest in technology, I am particularly drawn to web development and am keen to explore this dynamic field. My goal is to continuously learn and grow in this domain, leveraging my passion for technology to make a meaningful impact.</p>
+        </div>
+
+        <div class="section education animate-fade-in-right">
+            <div class="title-container">
+            <h2 class="skills-title full-block-underline">Education</h2>
+            </div>
+            <p><strong>B.Sc. in Computer Science and Engineering (CSE)</strong> - Daffodil International University (Currently Enrolled)</p>
+            <p><strong>Higher Secondary Certificate (HSC)</strong> - MEH Arif College | GPA: 5.00</p>
+            <p><strong>Secondary School Certificate (SSC)</strong> - Mouchak Ideal Public School | GPA: 5.00</p>
+        </div>
+        <div class="section skills animate-fade-in-left">
+            <div class="title-container">
+            <h2 class="skills-title full-block-underline">Skills</h2>
+            </div>
+            <ul>
+                <li><strong>Programming Languages:</strong> C, Java, Python (Beginner), SQL (Beginner)</li>
+                <li><strong>Microsoft Office:</strong> Word, PowerPoint, Excel</li>
+                <li><strong>Photography:</strong> Skilled in capturing creative perspectives</li>
+            </ul>
+        </div>
+      
+        <div class="section experience animate-fade-in-right">
+            <div class="title-container">
+            <h2 class="skills-title full-block-underline">Experience</h2>
+            </div>
+            <p>I have worked as an SFX artist in several projects as a freelancer, gaining valuable hands-on experience in sound design and creative audio engineering.</p>
+        </div>
+        <div class="section portfolio animate-fade-in-up">
+            <div class="title-container">
+            <h2 class="skills-title photography-title">Photography</h2>
+            </div>
+            <div class="portfolio">
+                <img src="./1.jpg" alt="Photography 1">
+                <img src="./2.jpg" alt="Photography 2">
+                <img src="./3.jpg" alt="Photography 3">
+                 <img src="./4.jpg" alt="Photography 4">
+                <img src="./5.jpg" alt="Photography 5">
+                <img src="./6.jpg" alt="Photography 6">
+               <img src="./7.jpg" alt="Photography 7">
+              <img src="./8.jpg" alt="Photography 8">
+              <img src="./9.jpg" alt="Photography 9">
+               <img src="./10.jpg" alt="Photography 10">
+              <img src="./11.jpg" alt="Photography 11">
+            <img src="./12.jpg" alt="Photography 12">
+            </div>
+        </div>
+
+        <div class="section contact-info animate-fade-in-right">
+            <div class="title-container">
+            <h2 class="skills-title full-block-underline">Contact Information</h2>
+            </div>
+            <p><strong>Email:</strong> maruf1015hossain@gmail.com</p>
+            <p><strong>Phone:</strong> +8801846853163</p>
+
+            <!-- Social Media Links -->
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com/marufhossain19" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="Facebook Logo" width="40px">
+                </a>
+                <a href="https://www.instagram.com/maruf_here_19/" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="Instagram Logo" width="40px">
+                </a>
+                <a href="https://wa.me/01846853163" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"alt="WhatsApp Logo" width="40px">
+                </a>
+            </div> 
+        </div>
+    </div>
+
+    <script>
+        // Animate images on hover
+        const images = document.querySelectorAll('.portfolio img');
+
+        images.forEach(image => {
+            image.addEventListener('mouseover', () => {
+                image.classList.add('hover');
+            });
+
+            image.addEventListener('mouseout', () => {
+                image.classList.remove('hover');
+            });
+        });
+    </script>
+</body>
+
+</html>
